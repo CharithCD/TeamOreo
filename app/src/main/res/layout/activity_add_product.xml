@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cPhotos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddProduct">
+
+    <EditText
+        android:id="@+id/ptDes"
+        android:layout_width="209dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/cPhone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/cPhone" />
+
+    <EditText
+        android:id="@+id/ptName"
+        android:layout_width="209dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/pName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/pName" />
+
+    <TextView
+        android:id="@+id/AddPro"
+        android:layout_width="281dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/Adpro"
+        android:textAlignment="center"
+        android:textColor="#0B0000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pName"
+        android:layout_width="73dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/name1"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddPro" />
+
+    <TextView
+        android:id="@+id/cPhone"
+        android:layout_width="106dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/des1"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pName" />
+
+    <TextView
+        android:id="@+id/pPrice"
+        android:layout_width="73dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/price1"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cPhone" />
+
+    <TextView
+        android:id="@+id/pPhoto"
+        android:layout_width="73dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/photo1"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pPrice" />
+
+    <EditText
+        android:id="@+id/nuPrice"
+        android:layout_width="209dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/pPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toEndOf="@+id/pPrice" />
+
+    <Button
+        android:id="@+id/ImgAdd"
+        android:layout_width="209dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/adimg"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/pPhoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/pPhoto" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="75dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="12dp"
+        android:contentDescription="@string/imgContent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.931"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImgAdd"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TableLayout
+        android:layout_width="361dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="@string/pid"
+                android:textColor="@android:color/background_dark"
+                tools:text="@string/pid" />
+
+            <TextView
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="@string/name1"
+                android:textColor="#000000"
+                tools:text="@string/name1" />
+
+            <TextView
+
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="@string/des1"
+                android:textColor="#000000"
+                tools:text="@string/des1" />
+
+            <TextView
+
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text="@string/photo1"
+                android:textColor="#000000"
+                tools:text="@string/photo1" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="#dcdcdc"
+                android:gravity="center"
+                android:padding="20dip"
+                android:textColor="@android:color/background_dark"/>
+
+            <TextView
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="#d3d3d3"
+                android:gravity="center"
+                android:padding="20dip"
+                android:text=""
+                android:textColor="#000000" />
+
+            <TextView
+
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:gravity="center"
+                android:padding="20dip"
+                android:textColor="#000000" />
+
+            <TextView
+
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="#cac9c9"
+                android:gravity="center"
+                android:padding="20dip"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="72dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/btnRed"
+        android:text="@string/deletepro"
+        android:textColor="#F4F3F3"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="72dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/btnGreen"
+        android:text="@string/addpro"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImgAdd" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="72dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="120dp"
+        android:background="@color/btnYello"
+        android:text="@string/updatepro"
+        android:textColor="#0B0A0A"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/ImgAdd" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

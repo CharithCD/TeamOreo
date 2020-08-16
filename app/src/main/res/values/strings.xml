@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HomePharmacy</string>
+    <string name="companyName">Home Pharmacy</string>
+    <string name="loginv">Login</string>
+    <string name="htphone">Phone Number</string>
+    <string name="htpass">Password</string>
+    <string name="loginbutton">Login</string>
+    <string name="regLink">Create An Account</string>
+    <string name="fName">First Name</string>
+    <string name="newAcc">Create An Account</string>
+    <string name="passhint">Password must be 8 - 16 Characters</string>
+    <string name="Adpro">Add Product</string>
+    <string name="name1">Name:</string>
+    <string name="des1">Description:</string>
+    <string name="price1">Price:</string>
+    <string name="photo1">Photo:</string>
+    <string name="adimg">Add Image</string>
+    <string name="addpro">ADD</string>
+    <string name="updatepro">UPDATE</string>
+    <string name="deletepro">DELETE</string>
+    <string name="phone1">Phone:</string>
+    <string name="password1">Password:</string>
+    <string name="Adcus">Customer Handling</string>
+    <string name="imgContent">Product Image</string>
+    <string name="pid">PID</string>
+    <string name="cid">CID</string>
+</resources>
