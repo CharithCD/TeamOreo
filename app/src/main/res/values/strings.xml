@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Home Pharmacy</string>
     <string name="companyName">Home Pharmacy</string>
+    <string name="btn_prescription">Prescription</string>
+    <string name="btn_lab">Lab</string>
+    <string name="btn_med">medicine</string>
 </resources>
