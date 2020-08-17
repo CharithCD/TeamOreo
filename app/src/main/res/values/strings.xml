@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Home Pharmacy</string>
+    <string name="Cart1">ADD CART</string>
+    <string name="Cart2">Grocery Items</string>
+    <string name="Cart3">Description</string>
+    <string name="Cart4">Back</string>
+    <string name="Cart5">Cart</string>
+    <string name="Cart6">ITEM1</string>
+    <string name="Cart7">Description</string>
+    <string name="Cart8">Cart2</string>
+    <string name="Cart9">qty</string>
+    <string name="Cart10">Price</string>
+    <string name="Cart11">DELETE</string>
+    <string name="Cart12">Cart3</string>
+    <string name="Cart13">Description</string>
+    <string name="Cart14">qty</string>
+    <string name="Cart15">Price</string>
+    <string name="Cart16">DELETE</string>
+    <string name="Cart19">Cart4</string>
+    <string name="Cart20">Description</string>
+    <string name="Cart21">qty</string>
+    <string name="Cart22">Total</string>
+    <string name="Cart23">Check Out</string>
+    <string name="id">ID : 01</string>
+    <string name="qty">Quantity : 10</string>
+    <string name="amount">Amount : Rs 200.00</string>
+    <string name="OrderID">Order ID :</string>
+    <string name="CustID">Customer ID:</string>
+    <string name="id2">ID : 02</string>
+    <string name="qyt2">Quantity : 4</string>
+    <string name="amount2">Amount : RS 65.00</string>
+    <string name="pid2">Product Q23W</string>
+    <string name="cid2">Customer ID :3452</string>
+    <string name="myCart">My Cart</string>
+    <string name="select">SELECT</string>
+    <string name="gOrder">Grocery Orders</string>
+</resources>
